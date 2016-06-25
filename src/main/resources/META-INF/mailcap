@@ -1,0 +1,5 @@
+#
+#
+# JavaMail content-handlers:
+#
+message/feedback-report;; x-java-content-handler=com.bluelotussoftware.mail.arf.message_feedback_report

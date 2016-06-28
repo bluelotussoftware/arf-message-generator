@@ -14,3 +14,21 @@ usage: ARF
  -u,--user <username>          username for SMTP authentication
  ```
 The required email message should be the raw email with all of the headers included.
+
+## Requirements
+* Java Mail API 1.5.5
+* Sun DSN API 1.5.5
+
+```
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.5.5</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>dsn</artifactId>
+            <version>1.5.5</version>
+        </dependency>
+```

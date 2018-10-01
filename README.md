@@ -16,6 +16,7 @@ usage: ARF
 The required email message should be the raw email with all of the headers included.
 
 ## Requirements
+* Java 1.8
 * Java Mail API 1.5.5
 * Sun DSN API 1.5.5
 
